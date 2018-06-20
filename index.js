@@ -19,7 +19,7 @@ app.post('/echo', async (request, reply) => {
 
 async function start() {
     try {
-        await app.listen(config.port);
+        await app.listen(config.port, config.host);
         app.log.info(`server listening on ${app.server.address().port}`);
     } catch (err) {
         app.log.error(err)
