@@ -1,0 +1,15 @@
+{
+  "name": "docker-api",
+  "version": "1.0.0",
+  "description": "A sample NodeJS API built with docker.",
+  "main": "index.js",
+  "author": "Alex Lapinski <contact@alexlapinski.name>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "envalid": "^4.1.4",
+    "fastify": "^1.6.0"
+  }
+}
