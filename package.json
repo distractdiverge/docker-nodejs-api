@@ -10,6 +10,6 @@
   },
   "dependencies": {
     "envalid": "^4.1.4",
-    "fastify": "^1.6.0"
+    "fastify": "^2.15.1"
   }
 }
